@@ -82,8 +82,8 @@ class _StopWatchScreenState extends State<StopWatchScreen> {
             ],
           ),
           SizedBox(
-            width: 100,
-            height: 200,
+            width: 120,
+            height: 240,
             child: ListView(
               children: _lapTime
                   .map((time) => Center(
